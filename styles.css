@@ -1,0 +1,25 @@
+body {
+  background-color:rgb(67, 67, 250);
+  font-family: 'Press Start 2P', sans-serif; 
+  font-size: 10px;
+  color: beige;
+}
+
+
+
+.pressed{
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.disappear {
+  opacity: 0.5;
+  transition: opacity 0.25s ease-in-out;
+}
+#gameOver{
+  display: block;
+ 
+}
+#gameStart{
+  display: block;
+}
