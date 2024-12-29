@@ -128,7 +128,7 @@ function playSound(color){
     currentAudio.pause();
     currentAudio.currentTime = 0;
   }
-  currentAudio= new Audio(sounds[ ]);
+  currentAudio= new Audio(sounds[color]);
 
   currentAudio.play();
 }
